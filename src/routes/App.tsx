@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/agenix.svg';
+import logo from '../images/agenix.svg';
 
 const App: React.FC = () => {
   return (
