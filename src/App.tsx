@@ -4,11 +4,15 @@ import logo from './images/agenix.svg';
 const App: React.FC = () => {
   return (
 
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="Agenix Logo" />
+    <div className="home-grid">
+      <header className="center-logo">
+          <img src={logo} alt="Agenix Logo" />
       </header>
+      <footer className="home-footer">
+        © 2019 Agenix LLC
+      </footer>
     </div>
+
   );
 }
 
