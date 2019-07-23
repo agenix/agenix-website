@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="26px" viewBox="0 0 36 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-450.000000, -750.000000)" fill="#9B9B9B">
+            <g id="Oval" transform="translate(468.263456, 762.526912) rotate(-315.000000) translate(-468.263456, -762.526912) translate(444.742641, 739.006097)">
+                <circle opacity="0" cx="23.5" cy="23.5" r="23.5"></circle>
+                <path d="M11.2556634,18.4045307 L28.8996764,18.4045307 L28.8996764,36.0485437 L11.2556634,36.0485437 L11.2556634,18.4045307 Z M19.3171521,18.4045307 L19.3171521,27.987055 L28.8996764,27.987055 L28.8996764,18.4045307 L19.3171521,18.4045307 Z" id="Combined-Shape"></path>
+                <path d="M35.7443366,14.1456311 L35.7443366,11.2556634 L22.3592233,11.2556634 L22.3592233,15.3624595 L31.6375405,15.3624595 L31.6375405,24.6407767 L35.7443366,24.6407767 L35.7443366,14.1456311 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
