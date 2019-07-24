@@ -2,36 +2,36 @@
 
 [Live Website on IPFS](https://cloudflare-ipfs.com/ipfs/QmbBXHR9awfJ6baButt9SmpWtBfXTSFaAHVhrhCZqbDbjz/)
 
-## Install
+### Install
 
 ```
 yarn install
 ```
 
-## Serve
+### Serve
 ```
 yarn start
 ```
 
-## Build
+### Build
 ```
 yarn build
 ```
 
-## Start IPFS
+### Start IPFS
 ```
 ipfs daemon
 ```
 
-## Push to IPFS
+### Push to IPFS
 ```
-ipfs add -r /[path] (Press Enter)
+ipfs add -r /[path to build]
 ```
 
-## Pin to IPFS
+### Pin to IPFS
 ```
 ipfs pin add <IPFS Hash>
 ```
 
-## Make Live
-Update the DNS TXT record with the ame of _dnslink
+### Make Live
+Update the DNS TXT record with the name of _dnslink
