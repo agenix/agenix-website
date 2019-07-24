@@ -50,3 +50,29 @@ ipfs pin add <IPFS Hash>
 
 ### Make Live
 Update the DNS TXT record with the name of _dnslink
+
+
+## Project structure
+
+```js
+agenix // project directory
+├── public
+│   ├── images // All static images for the project
+│   ├── favicon.ico
+│   ├── index.html // initial page and meta tags
+│   └── manifest.json 
+├── src
+│    ├── components // self contained components
+│    ├── images // images needing importing
+│    ├── routes // routes and grid layouts
+│    ├── scss // Sass nested styles
+│    │   └──  components // Sass for each component
+│    └── tests
+├── index.tsx
+└── serviceWorker.tsx
+
+```
+
+## License
+
+[MIT](./LICENSE)
