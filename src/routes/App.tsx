@@ -28,12 +28,11 @@ const App: React.FC = () => {
 
             <div className="client-container">
               <PartnerIcon name="worbli" description="EOS Sister Chain"/>
-              <PartnerIcon name="Transledger" description="Cypto-Fiat Gateway"/>
-              <PartnerIcon name="Blocksmith" description="Development"/>
-              <PartnerIcon name="TokenOro" description="Gold Preferred Security"/>
-              <PartnerIcon name="Strongblock" description="Business Development"/>
-              <PartnerIcon name="SanDemas" description="Business Development"/>
-              <PartnerIcon name="DeFuse" description="API Development"/>
+              <PartnerIcon name="transledger" description="Cypto-Fiat Gateway"/>
+              <PartnerIcon name="blocksmith" description="Development"/>
+              <PartnerIcon name="tokenoro" description="Gold Preferred Security"/>
+              <PartnerIcon name="sandemas" description="Business Development"/>
+              <PartnerIcon name="dfuse" description="API Development"/>
             </div>
             
             <TitleText 
@@ -43,14 +42,13 @@ const App: React.FC = () => {
             />
             <div className="contact-icons">
               <a href="email:hello@agenix.io" target="_blank" rel="noopener noreferrer"><img src="./images/email.svg" alt="email us"></img></a>
-              <a href="http://wwww.t.agenix.io" target="_blank" rel="noopener noreferrer"><img src="./images/telegram.svg" alt="find us on telegram"></img></a>
               <a href="http://www.github.com/agenix/" target="_blank" rel="noopener noreferrer"><img src="./images/github.svg" alt="join us on github"></img></a>
             </div>
 
           </div>
         </section>
         <footer className="home-footer">
-          © 2019 Agenix LLC
+          © 2019 Agenix LLC.
         </footer>
 
       </div>
