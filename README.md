@@ -58,18 +58,18 @@ Update the DNS TXT record with the name of _dnslink
 agenix // project directory
 ├── public
 │   ├── images // All static images for the project
-│   ├── favicon.ico
+│   ├── favicon.ico 
 │   ├── index.html // initial page and meta tags
-│   └── manifest.json 
+│   └── manifest.json // web manifest for PWA
 ├── src
 │    ├── components // self contained components
 │    ├── images // images needing importing
 │    ├── routes // routes and grid layouts
 │    ├── scss // Sass nested styles
 │    │   └──  components // Sass for each component
-│    └── tests
-├── index.tsx
-└── serviceWorker.tsx
+│    └── tests // component tests
+├── index.tsx // initial loader
+└── serviceWorker.tsx // generated service worker
 
 ```
 

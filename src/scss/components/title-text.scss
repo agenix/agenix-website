@@ -1,0 +1,35 @@
+.title-text{
+  h5 {
+    color: $agenixWhite;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    color: $agenixWhite;
+    font-size: 3.7rem;
+    padding: 1rem 0 3rem 0;
+    font-weight: 400;
+  }
+  p {
+    color: $agenixWhite;
+    font-size: 1.3rem;    
+  }
+  span {
+    background-color: $agenixGreen;
+    width: 4rem;
+    height: 0.7rem;
+    display: inline-block;
+    margin-right: 1.2rem;
+  }
+
+  @media only screen and (max-width: 60rem) {
+    h3 {
+      font-size: 2.7rem;
+      padding: 1.6rem 0;
+    }
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+}
+    
