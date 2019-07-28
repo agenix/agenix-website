@@ -1,14 +1,16 @@
 import React, {useEffect} from 'react';
-// import logo from './images/agenix.svg';
+
 
 const NotFound: React.FC = () => {
-  useEffect(() => {document.title = 'something...'}, [])
+  useEffect(() => {
+    document.title = 'Agenix - 404 Not Found';
+  }, [])
   
   return (    
 
     <div className="home-grid page">
       <div className="logo">
-        {/* <h1><a href="/"><img src={logo} alt="Agenix Logo" /></a></h1> */}
+        <img src="./images/agenix.svg" alt = "Agenix Logo" />
         <h2 className="strapline">404 Page Not Found</h2>
       </div>
       <footer className="footer">

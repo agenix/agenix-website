@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
 
 import Home from './routes/home';
+import Contact from './routes/contact';
 import NotFound from './routes/not-found';
 import Context from "./components/context";
 
@@ -18,6 +19,7 @@ const Router: React.FC = () => {
               <CSSTransition timeout={450} classNames='fade' key={location.key}>
                 <Switch location={location}>
                   <Route exact path = '/' component = {Home} />
+                  <Route exact path = '/contact' component = {Contact} />
                   <Route component = {NotFound}/>
                 </Switch>
               </CSSTransition>

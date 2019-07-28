@@ -1,7 +1,6 @@
 import React from 'react';
 import TitleText from '../components/title-text'
 import PartnerIcon from '../components/partner-icon'
-// import ecc from 'eosjs-ecc'
 
 const Home: React.FC = () => {
   return (
