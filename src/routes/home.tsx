@@ -5,11 +5,11 @@ import PartnerIcon from '../components/partner-icon'
 const Home: React.FC = () => {
   return (
 
-    <div className="page">
+    <div className="home">
       <div className="home-grid">
         
         <header className="left-logo">
-            <img src="./images/agenix.svg" alt="Agenix Logo" />
+            <div className="top-logo"></div>
             <p>Provocateurs & Purveyors of Decentralised Web Applications</p>
         </header>
         <section>

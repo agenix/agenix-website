@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: light) {
+  html {
+      content: "light";
+      background: $agenixWhite;
+      color: $agenixDarkGrey;
+      .home {
+        background:  linear-gradient( rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9) ), url(../images/background-light.jpg) no-repeat center center fixed !important;  
+        }
+      .top-logo {
+        background: url(../images/agenix-light.svg) !important;
+      }
+      .home-grid .content-container .partner-icon img {
+        filter: brightness(60%);
+      }
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+      content: "dark";
+      background: $agenixDarkGrey;
+      color: $agenixWhite;
+      .home {
+        background:  linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8) ), url(../images/background.jpg) no-repeat center center fixed !important;
+      }
+      .top-logo {
+        background: url(../images/agenix.svg) !important;
+      }
+      .home-grid .content-container .partner-icon img {
+        filter: brightness(80%);
+      }
+  }
+}
+
+@media only screen and (min-width: 45rem) {
+    html body .home .home-grid .content-container {
+        grid-template-rows: 1fr 1fr 16rem 1fr;
+        grid-row-gap: 6.4rem;
+        .client-container {
+            grid-row-gap: 1.2rem;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+            height: 17rem
+        }
+        .contact-icons {
+            height: 3rem;
+            width: 10rem;
+            top: -5rem;
+            margin-left: 0;
+        }
+    }
+}
