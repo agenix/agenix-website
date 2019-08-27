@@ -4,12 +4,14 @@
     text-transform: uppercase;
   }
   h3 {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
     font-size: 3.7rem;
     padding: 1rem 0 3rem 0;
     font-weight: 400;
   }
   p {
-    font-size: 1.3rem;    
+    font-size: 1.6rem;
+    line-height: 1.8em;  
   }
   span {
     background-color: $agenixGreen;
